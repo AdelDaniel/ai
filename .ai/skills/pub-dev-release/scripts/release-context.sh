@@ -29,7 +29,7 @@ else
   echo "Latest release tag: none found"
   echo
   echo "Recent commits:"
-  git log --oneline -20
+  git log --oneline -20 2>/dev/null || echo "none found"
   echo
   echo "Tracked files changed in working tree:"
   git status --short
