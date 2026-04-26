@@ -22,10 +22,17 @@ The repository root contains project-level contributor guidance. Reusable resour
 - [Contributor guide](AGENTS.md): Repository conventions for maintainers and coding agents.
 - [AI workspace README](.ai/README.md): Structure and rules for adding reusable AI resources.
 - [AI behavior guidelines](.ai/instructions/ai-behavior.md): Shared execution rules for AI-assisted work.
+- [Flutter project principles](.ai/instructions/flutter-project-principles.md): Product, architecture, UX, and quality expectations for Flutter work.
+- [Flutter project structure](.ai/instructions/flutter-project-structure.md): Clean Architecture folder guidance for Flutter UI features.
 - [Add resource template](.ai/templates/add-ai-resource.md): Prompt for adding new reusable resources.
+- [Implement UI feature command](.ai/templates/implement-ui-feature.md): Slash-command prompt template for production-ready Flutter UI implementation.
 
 ## Working With Resources
 
 Add task workflows to `.ai/skills/<skill-name>/SKILL.md`, shared guidance to `.ai/instructions/`, and reusable prompts or formats to `.ai/templates/`. Create `.ai/agents/` only when adding reusable role definitions.
 
 Keep resources model-agnostic unless a tool-specific adapter is explicitly needed.
+
+## Skill Guides
+
+Flutter workflows are available under `.ai/skills/`, including `bloc`, `error-handling`, `flutter-expert`, `localization`, `routing`, `screen-ui`, `service-logger-validator`, `theme`, and `ui-builder`.
