@@ -14,6 +14,8 @@ The `.ai/` folder keeps reusable instructions, skills, templates, and optional a
     flutter-project-principles.md
     flutter-project-structure.md
   skills/
+    analytics/
+      SKILL.md
     bloc/
       SKILL.md
     error-handling/
@@ -57,6 +59,7 @@ Create new directories only when a resource needs them. For example, add `agents
 - [AI behavior guidelines](instructions/ai-behavior.md): Shared execution rules for cautious, focused AI-assisted work.
 - [Flutter project principles](instructions/flutter-project-principles.md): Mindset, quality bar, and collaboration principles for Flutter feature work.
 - [Flutter project structure](instructions/flutter-project-structure.md): Clean Architecture folder structure guidance for Flutter UI work.
+- [analytics](skills/analytics/SKILL.md): Provider-agnostic Flutter analytics architecture using typed events, `AnalyticsService`, Firebase Analytics, Mixpanel, consent handling, and QA validation.
 - [bloc](skills/bloc/SKILL.md): BLoC architecture, file structure, event naming, and state modeling conventions.
 - [error-handling](skills/error-handling/SKILL.md): Exception-to-failure guidance using `AppException`, `Failure`, and `Either`.
 - [flutter-expert](skills/flutter-expert/SKILL.md): Broad Flutter architecture, performance, testing, and platform guidance.

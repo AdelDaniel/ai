@@ -35,4 +35,4 @@ Keep resources model-agnostic unless a tool-specific adapter is explicitly neede
 
 ## Skill Guides
 
-Flutter workflows are available under `.ai/skills/`, including `bloc`, `error-handling`, `flutter-expert`, `localization`, `routing`, `screen-ui`, `service-logger-validator`, `theme`, and `ui-builder`.
+Flutter workflows are available under `.ai/skills/`, including `analytics`, `bloc`, `error-handling`, `flutter-expert`, `localization`, `routing`, `screen-ui`, `service-logger-validator`, `theme`, and `ui-builder`.
